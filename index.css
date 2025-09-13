@@ -1,0 +1,96 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  width: 100lvh;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  height: 70px;
+}
+header > ul {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 56px;
+  gap: 15px;
+}
+
+.Site {
+  margin: 20px 0px 0px 30px;
+}
+
+main {
+  margin-left: 30px;
+}
+
+.heading {
+  width: 844px;
+  height: 200px;
+  padding: 15px;
+  gap: 10px;
+}
+
+.heading > h2 {
+  padding-bottom: 15px;
+}
+
+.heading > button {
+  margin-top: 25px;
+  width: 141px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}
+
+main > .photo1 {
+  display: flex;
+  inset-block: inherit;
+  margin: 0px 0px 0px 10px;
+  left: 10px;
+  border-radius: 8px;
+}
+
+.siction {
+  font-size: 48px;
+  margin: 70px 0px 30px 10px;
+}
+
+.photo {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.block1 {
+  width: 420px;
+  height: 405px;
+  border-radius: 8px;
+}
+
+.vertikal{
+  box-sizing: content-box;
+  display: flex;
+  flex-direction:column ;
+}
+
+.text{
+  margin: 20px 0px 0px 0px ;
+}
